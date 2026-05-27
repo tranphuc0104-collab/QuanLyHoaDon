@@ -1,0 +1,10 @@
+﻿# Visual Studio Cache và cấu hình cá nhân
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Thư mục biên dịch sinh ra khi Run code
+bin/
+obj/
