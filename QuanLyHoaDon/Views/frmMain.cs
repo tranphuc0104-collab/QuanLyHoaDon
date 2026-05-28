@@ -29,7 +29,6 @@ namespace QuanLyHoaDon.Views
         }
 
         private Form currentFormChild;
-
         private void OpenChildForm(Form childForm)
         {
             if (currentFormChild != null)
