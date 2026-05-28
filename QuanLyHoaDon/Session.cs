@@ -9,6 +9,7 @@ namespace QuanLyHoaDon
     internal class Session
     {
         public static string MaKH;
+        public static string TenKH;
         public static string Username;
         public static string Quyen;
         public static bool DaDangNhap = false;

@@ -104,6 +104,7 @@ namespace QuanLyHoaDon.Views
                 MessageBox.Show("Vui lòng đăng nhập!");
                 frmLogin f =new frmLogin();
                 f.ShowDialog();
+                capNhatTrangThaiLogin();
                 return;
             }
             if (dgvGioHang.Rows.Count == 0)
@@ -149,7 +150,7 @@ namespace QuanLyHoaDon.Views
             if (Session.DaDangNhap)
             {
                 btnLogin_Logout.Text = "ĐĂNG XUẤT";
-                lblXinChao.Text = "Xin chào " + Session.Username;
+                lblXinChao.Text = "Xin chào " + Session.TenKH;
             }
             else
             {
@@ -198,6 +199,7 @@ namespace QuanLyHoaDon.Views
                 MessageBox.Show("Vui lòng đăng nhập!");
                 frmLogin f =new frmLogin();
                 f.ShowDialog();
+                capNhatTrangThaiLogin();
                 return;
             }
             frmHoaDonCuaToi fHD =new frmHoaDonCuaToi();

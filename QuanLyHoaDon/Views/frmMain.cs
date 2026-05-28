@@ -25,7 +25,7 @@ namespace QuanLyHoaDon.Views
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            panelBody.BackColor = Color.FromArgb(180, 255, 255, 255);
+            OpenChildForm(new frmDatHang());
         }
 
         private Form currentFormChild;
@@ -95,7 +95,7 @@ namespace QuanLyHoaDon.Views
         private void btnTrangchu_Click(object sender, EventArgs e)
         {
             OpenChildForm(new frmDatHang());
-            lblTitle.Text = "THỐNG KÊ";
+            lblTitle.Text = "TRANG CHỦ";
         }
     }
 }

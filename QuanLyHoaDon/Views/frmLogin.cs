@@ -39,12 +39,14 @@ namespace QuanLyHoaDon.Views
                 if (role == "User")
                 {
                     Session.MaKH = login.getMaKH(username);
+                    Session.TenKH =login.getTenKH(username);
                     MessageBox.Show("Đăng nhập thành công!\nQuyền: User");
                     this.Close();
                 }
                 else
                 {
                     Session.MaKH = login.getMaKH(username);
+                    Session.TenKH = login.getTenKH(username);
                     MessageBox.Show("Đăng nhập thành công!\nQuyền: Admin");
                     frmMain f = new frmMain();
                     this.Hide();

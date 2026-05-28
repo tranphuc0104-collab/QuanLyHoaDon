@@ -1,6 +1,7 @@
 ﻿using QuanLyHoaDon.Database;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -49,6 +50,26 @@ namespace QuanLyHoaDon.Controllers
             }
             conn.Close();
             return maKH;
+        }
+        public string getTenKH(string username)
+        {
+            SqlConnection conn = Connection.GetConnection();
+            string tenKH = "";
+            string query = @"SELECT KhachHang.TenKH
+                            FROM TaiKhoan
+                            INNER JOIN KhachHang
+                            ON TaiKhoan.MaKH = KhachHang.MaKH
+                            WHERE Username = @Username";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            cmd.Parameters.AddWithValue("@Username",username);
+            conn.Open();
+            object result =cmd.ExecuteScalar();
+            if (result != null)
+            {
+                tenKH = result.ToString();
+            }
+            conn.Close();
+            return tenKH;
         }
     }
 }
