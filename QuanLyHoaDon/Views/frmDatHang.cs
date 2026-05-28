@@ -61,34 +61,24 @@ namespace QuanLyHoaDon.Views
         }
         private void btnThemBMT_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP01");}
-
         private void btnThemBMTr_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP02");}
-
         private void btnThemCFD_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP03");}
-
         private void btnThemCFS_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP04");}
-
         private void btnThemTSTT_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP05");}
-
         private void btnThemTDCS_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP06");}
-
         private void btnThemNEC_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP07");}
-
         private void btnThemSTX_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP08");}
-
         private void btnThemMXB_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP09");}
-
         private void btnThemCCHS_Click(object sender, EventArgs e)
         {themSanPhamVaoGio("SP10");}
-
         private void dgvGioHang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && e.ColumnIndex == dgvGioHang.Columns["colXoa"].Index)
@@ -121,7 +111,7 @@ namespace QuanLyHoaDon.Views
                 MessageBox.Show("Vui lòng chọn sản phẩm!");
                 return;
             }
-            
+
             string maHD = ctrlHD.taoMaHD();
             decimal tongTien = 0;
             foreach (DataGridViewRow row
@@ -213,5 +203,16 @@ namespace QuanLyHoaDon.Views
             frmHoaDonCuaToi fHD =new frmHoaDonCuaToi();
             fHD.ShowDialog();
         }
+
+        private void btnML_Click(object sender, EventArgs e)
+        { themSanPhamVaoGio("SP11"); }
+        private void btnSBH_Click(object sender, EventArgs e)
+        { themSanPhamVaoGio("SP12"); }
+        private void btnTC_Click(object sender, EventArgs e)
+        { themSanPhamVaoGio("SP13"); }
+        private void btnTRMS_Click(object sender, EventArgs e)
+        { themSanPhamVaoGio("SP14"); }
+        private void btnSK_Click(object sender, EventArgs e)
+        { themSanPhamVaoGio("SP15"); }
     }
 }

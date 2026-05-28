@@ -81,30 +81,30 @@
             this.label17 = new System.Windows.Forms.Label();
             this.picCCHS = new System.Windows.Forms.PictureBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pnlML = new System.Windows.Forms.Panel();
+            this.btnML = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picML = new System.Windows.Forms.PictureBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.pnlSBH = new System.Windows.Forms.Panel();
+            this.btnSBH = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.picSBH = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.pnlTC = new System.Windows.Forms.Panel();
+            this.btnTC = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.picTC = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.pnlTRMS = new System.Windows.Forms.Panel();
+            this.btnTRMS = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.picTRMS = new System.Windows.Forms.PictureBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.pnlSK = new System.Windows.Forms.Panel();
+            this.btnSK = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.picSK = new System.Windows.Forms.PictureBox();
             this.label28 = new System.Windows.Forms.Label();
             this.dgvGioHang = new System.Windows.Forms.DataGridView();
             this.colMaSP = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -139,16 +139,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMXB)).BeginInit();
             this.pnlCCHS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCCHS)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.pnlML.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picML)).BeginInit();
+            this.pnlSBH.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSBH)).BeginInit();
+            this.pnlTC.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTC)).BeginInit();
+            this.pnlTRMS.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTRMS)).BeginInit();
+            this.pnlSK.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGioHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -177,11 +177,11 @@
             this.flpMenu.Controls.Add(this.pnlSTX);
             this.flpMenu.Controls.Add(this.pnlMXB);
             this.flpMenu.Controls.Add(this.pnlCCHS);
-            this.flpMenu.Controls.Add(this.panel1);
-            this.flpMenu.Controls.Add(this.panel2);
-            this.flpMenu.Controls.Add(this.panel3);
-            this.flpMenu.Controls.Add(this.panel4);
-            this.flpMenu.Controls.Add(this.panel5);
+            this.flpMenu.Controls.Add(this.pnlML);
+            this.flpMenu.Controls.Add(this.pnlSBH);
+            this.flpMenu.Controls.Add(this.pnlTC);
+            this.flpMenu.Controls.Add(this.pnlTRMS);
+            this.flpMenu.Controls.Add(this.pnlSK);
             this.flpMenu.Location = new System.Drawing.Point(30, 80);
             this.flpMenu.Name = "flpMenu";
             this.flpMenu.Size = new System.Drawing.Size(1040, 525);
@@ -705,7 +705,7 @@
             this.picMXB.Location = new System.Drawing.Point(10, 10);
             this.picMXB.Name = "picMXB";
             this.picMXB.Size = new System.Drawing.Size(180, 120);
-            this.picMXB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMXB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picMXB.TabIndex = 0;
             this.picMXB.TabStop = false;
             // 
@@ -753,7 +753,7 @@
             this.picCCHS.Location = new System.Drawing.Point(10, 10);
             this.picCCHS.Name = "picCCHS";
             this.picCCHS.Size = new System.Drawing.Size(180, 120);
-            this.picCCHS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picCCHS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picCCHS.TabIndex = 0;
             this.picCCHS.TabStop = false;
             // 
@@ -767,31 +767,32 @@
             this.label18.TabIndex = 1;
             this.label18.Text = "Cơm Chiên Hải Sản";
             // 
-            // panel1
+            // pnlML
             // 
-            this.panel1.BackColor = System.Drawing.Color.MistyRose;
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.label20);
-            this.panel1.Location = new System.Drawing.Point(3, 515);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 250);
-            this.panel1.TabIndex = 11;
+            this.pnlML.BackColor = System.Drawing.Color.MistyRose;
+            this.pnlML.Controls.Add(this.btnML);
+            this.pnlML.Controls.Add(this.label19);
+            this.pnlML.Controls.Add(this.picML);
+            this.pnlML.Controls.Add(this.label20);
+            this.pnlML.Location = new System.Drawing.Point(3, 515);
+            this.pnlML.Name = "pnlML";
+            this.pnlML.Size = new System.Drawing.Size(200, 250);
+            this.pnlML.TabIndex = 11;
             // 
-            // button1
+            // btnML
             // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(25, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 40);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "THÊM";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnML.AutoSize = true;
+            this.btnML.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnML.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnML.ForeColor = System.Drawing.Color.White;
+            this.btnML.Location = new System.Drawing.Point(25, 205);
+            this.btnML.Name = "btnML";
+            this.btnML.Size = new System.Drawing.Size(150, 40);
+            this.btnML.TabIndex = 3;
+            this.btnML.Text = "THÊM";
+            this.btnML.UseVisualStyleBackColor = false;
+            this.btnML.Click += new System.EventHandler(this.btnML_Click);
             // 
             // label19
             // 
@@ -802,52 +803,54 @@
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(108, 25);
             this.label19.TabIndex = 2;
-            this.label19.Text = "55.000 VNĐ";
+            this.label19.Text = "30.000 VNĐ";
             // 
-            // pictureBox1
+            // picML
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 120);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picML.Image = ((System.Drawing.Image)(resources.GetObject("picML.Image")));
+            this.picML.Location = new System.Drawing.Point(10, 10);
+            this.picML.Name = "picML";
+            this.picML.Size = new System.Drawing.Size(180, 120);
+            this.picML.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picML.TabIndex = 0;
+            this.picML.TabStop = false;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(5, 145);
+            this.label20.Location = new System.Drawing.Point(20, 145);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(192, 28);
+            this.label20.Size = new System.Drawing.Size(137, 28);
             this.label20.TabIndex = 1;
-            this.label20.Text = "Cơm Chiên Hải Sản";
+            this.label20.Text = "Matcha Latte";
             // 
-            // panel2
+            // pnlSBH
             // 
-            this.panel2.BackColor = System.Drawing.Color.MistyRose;
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.label21);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label22);
-            this.panel2.Location = new System.Drawing.Point(209, 515);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 250);
-            this.panel2.TabIndex = 12;
+            this.pnlSBH.BackColor = System.Drawing.Color.MistyRose;
+            this.pnlSBH.Controls.Add(this.btnSBH);
+            this.pnlSBH.Controls.Add(this.label21);
+            this.pnlSBH.Controls.Add(this.picSBH);
+            this.pnlSBH.Controls.Add(this.label22);
+            this.pnlSBH.Location = new System.Drawing.Point(209, 515);
+            this.pnlSBH.Name = "pnlSBH";
+            this.pnlSBH.Size = new System.Drawing.Size(200, 250);
+            this.pnlSBH.TabIndex = 12;
             // 
-            // button2
+            // btnSBH
             // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(25, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 40);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "THÊM";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnSBH.AutoSize = true;
+            this.btnSBH.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnSBH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSBH.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSBH.ForeColor = System.Drawing.Color.White;
+            this.btnSBH.Location = new System.Drawing.Point(25, 205);
+            this.btnSBH.Name = "btnSBH";
+            this.btnSBH.Size = new System.Drawing.Size(150, 40);
+            this.btnSBH.TabIndex = 3;
+            this.btnSBH.Text = "THÊM";
+            this.btnSBH.UseVisualStyleBackColor = false;
+            this.btnSBH.Click += new System.EventHandler(this.btnSBH_Click);
             // 
             // label21
             // 
@@ -858,52 +861,54 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(108, 25);
             this.label21.TabIndex = 2;
-            this.label21.Text = "55.000 VNĐ";
+            this.label21.Text = "25.000 VNĐ";
             // 
-            // pictureBox2
+            // picSBH
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(180, 120);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.picSBH.Image = ((System.Drawing.Image)(resources.GetObject("picSBH.Image")));
+            this.picSBH.Location = new System.Drawing.Point(10, 10);
+            this.picSBH.Name = "picSBH";
+            this.picSBH.Size = new System.Drawing.Size(180, 120);
+            this.picSBH.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSBH.TabIndex = 0;
+            this.picSBH.TabStop = false;
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(5, 145);
+            this.label22.Location = new System.Drawing.Point(20, 145);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(192, 28);
+            this.label22.Size = new System.Drawing.Size(126, 28);
             this.label22.TabIndex = 1;
-            this.label22.Text = "Cơm Chiên Hải Sản";
+            this.label22.Text = "Soda bạc hà";
             // 
-            // panel3
+            // pnlTC
             // 
-            this.panel3.BackColor = System.Drawing.Color.MistyRose;
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.label23);
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Location = new System.Drawing.Point(415, 515);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 250);
-            this.panel3.TabIndex = 13;
+            this.pnlTC.BackColor = System.Drawing.Color.MistyRose;
+            this.pnlTC.Controls.Add(this.btnTC);
+            this.pnlTC.Controls.Add(this.label23);
+            this.pnlTC.Controls.Add(this.picTC);
+            this.pnlTC.Controls.Add(this.label24);
+            this.pnlTC.Location = new System.Drawing.Point(415, 515);
+            this.pnlTC.Name = "pnlTC";
+            this.pnlTC.Size = new System.Drawing.Size(200, 250);
+            this.pnlTC.TabIndex = 13;
             // 
-            // button3
+            // btnTC
             // 
-            this.button3.AutoSize = true;
-            this.button3.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(25, 205);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(150, 40);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "THÊM";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnTC.AutoSize = true;
+            this.btnTC.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnTC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTC.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTC.ForeColor = System.Drawing.Color.White;
+            this.btnTC.Location = new System.Drawing.Point(25, 205);
+            this.btnTC.Name = "btnTC";
+            this.btnTC.Size = new System.Drawing.Size(150, 40);
+            this.btnTC.TabIndex = 3;
+            this.btnTC.Text = "THÊM";
+            this.btnTC.UseVisualStyleBackColor = false;
+            this.btnTC.Click += new System.EventHandler(this.btnTC_Click);
             // 
             // label23
             // 
@@ -914,52 +919,54 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(108, 25);
             this.label23.TabIndex = 2;
-            this.label23.Text = "55.000 VNĐ";
+            this.label23.Text = "25.000 VNĐ";
             // 
-            // pictureBox3
+            // picTC
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(180, 120);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.picTC.Image = ((System.Drawing.Image)(resources.GetObject("picTC.Image")));
+            this.picTC.Location = new System.Drawing.Point(10, 10);
+            this.picTC.Name = "picTC";
+            this.picTC.Size = new System.Drawing.Size(180, 120);
+            this.picTC.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTC.TabIndex = 0;
+            this.picTC.TabStop = false;
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(5, 145);
+            this.label24.Location = new System.Drawing.Point(20, 145);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(192, 28);
+            this.label24.Size = new System.Drawing.Size(104, 28);
             this.label24.TabIndex = 1;
-            this.label24.Text = "Cơm Chiên Hải Sản";
+            this.label24.Text = "Trà chanh";
             // 
-            // panel4
+            // pnlTRMS
             // 
-            this.panel4.BackColor = System.Drawing.Color.MistyRose;
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.label25);
-            this.panel4.Controls.Add(this.pictureBox4);
-            this.panel4.Controls.Add(this.label26);
-            this.panel4.Location = new System.Drawing.Point(621, 515);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 250);
-            this.panel4.TabIndex = 14;
+            this.pnlTRMS.BackColor = System.Drawing.Color.MistyRose;
+            this.pnlTRMS.Controls.Add(this.btnTRMS);
+            this.pnlTRMS.Controls.Add(this.label25);
+            this.pnlTRMS.Controls.Add(this.picTRMS);
+            this.pnlTRMS.Controls.Add(this.label26);
+            this.pnlTRMS.Location = new System.Drawing.Point(621, 515);
+            this.pnlTRMS.Name = "pnlTRMS";
+            this.pnlTRMS.Size = new System.Drawing.Size(200, 250);
+            this.pnlTRMS.TabIndex = 14;
             // 
-            // button4
+            // btnTRMS
             // 
-            this.button4.AutoSize = true;
-            this.button4.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(25, 205);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(150, 40);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "THÊM";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnTRMS.AutoSize = true;
+            this.btnTRMS.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnTRMS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTRMS.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTRMS.ForeColor = System.Drawing.Color.White;
+            this.btnTRMS.Location = new System.Drawing.Point(25, 205);
+            this.btnTRMS.Name = "btnTRMS";
+            this.btnTRMS.Size = new System.Drawing.Size(150, 40);
+            this.btnTRMS.TabIndex = 3;
+            this.btnTRMS.Text = "THÊM";
+            this.btnTRMS.UseVisualStyleBackColor = false;
+            this.btnTRMS.Click += new System.EventHandler(this.btnTRMS_Click);
             // 
             // label25
             // 
@@ -970,52 +977,54 @@
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(108, 25);
             this.label25.TabIndex = 2;
-            this.label25.Text = "55.000 VNĐ";
+            this.label25.Text = "40.000 VNĐ";
             // 
-            // pictureBox4
+            // picTRMS
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(180, 120);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
+            this.picTRMS.Image = ((System.Drawing.Image)(resources.GetObject("picTRMS.Image")));
+            this.picTRMS.Location = new System.Drawing.Point(10, 10);
+            this.picTRMS.Name = "picTRMS";
+            this.picTRMS.Size = new System.Drawing.Size(180, 120);
+            this.picTRMS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picTRMS.TabIndex = 0;
+            this.picTRMS.TabStop = false;
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(5, 145);
+            this.label26.Location = new System.Drawing.Point(20, 145);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(192, 28);
+            this.label26.Size = new System.Drawing.Size(148, 28);
             this.label26.TabIndex = 1;
-            this.label26.Text = "Cơm Chiên Hải Sản";
+            this.label26.Text = "Bánh Tiramisu";
             // 
-            // panel5
+            // pnlSK
             // 
-            this.panel5.BackColor = System.Drawing.Color.MistyRose;
-            this.panel5.Controls.Add(this.button5);
-            this.panel5.Controls.Add(this.label27);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Controls.Add(this.label28);
-            this.panel5.Location = new System.Drawing.Point(827, 515);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 250);
-            this.panel5.TabIndex = 15;
+            this.pnlSK.BackColor = System.Drawing.Color.MistyRose;
+            this.pnlSK.Controls.Add(this.btnSK);
+            this.pnlSK.Controls.Add(this.label27);
+            this.pnlSK.Controls.Add(this.picSK);
+            this.pnlSK.Controls.Add(this.label28);
+            this.pnlSK.Location = new System.Drawing.Point(827, 515);
+            this.pnlSK.Name = "pnlSK";
+            this.pnlSK.Size = new System.Drawing.Size(200, 250);
+            this.pnlSK.TabIndex = 15;
             // 
-            // button5
+            // btnSK
             // 
-            this.button5.AutoSize = true;
-            this.button5.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(25, 205);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(150, 40);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "THÊM";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnSK.AutoSize = true;
+            this.btnSK.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnSK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSK.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSK.ForeColor = System.Drawing.Color.White;
+            this.btnSK.Location = new System.Drawing.Point(25, 205);
+            this.btnSK.Name = "btnSK";
+            this.btnSK.Size = new System.Drawing.Size(150, 40);
+            this.btnSK.TabIndex = 3;
+            this.btnSK.Text = "THÊM";
+            this.btnSK.UseVisualStyleBackColor = false;
+            this.btnSK.Click += new System.EventHandler(this.btnSK_Click);
             // 
             // label27
             // 
@@ -1026,26 +1035,27 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(108, 25);
             this.label27.TabIndex = 2;
-            this.label27.Text = "55.000 VNĐ";
+            this.label27.Text = "20.000 VNĐ";
             // 
-            // pictureBox5
+            // picSK
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(10, 10);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(180, 120);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
+            this.picSK.Image = ((System.Drawing.Image)(resources.GetObject("picSK.Image")));
+            this.picSK.Location = new System.Drawing.Point(10, 10);
+            this.picSK.Name = "picSK";
+            this.picSK.Size = new System.Drawing.Size(180, 120);
+            this.picSK.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picSK.TabIndex = 0;
+            this.picSK.TabStop = false;
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(5, 145);
+            this.label28.Location = new System.Drawing.Point(20, 145);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(192, 28);
+            this.label28.Size = new System.Drawing.Size(133, 28);
             this.label28.TabIndex = 1;
-            this.label28.Text = "Cơm Chiên Hải Sản";
+            this.label28.Text = "Bánh su kem";
             // 
             // dgvGioHang
             // 
@@ -1064,7 +1074,7 @@
             this.dgvGioHang.RowHeadersVisible = false;
             this.dgvGioHang.RowHeadersWidth = 51;
             this.dgvGioHang.RowTemplate.Height = 24;
-            this.dgvGioHang.Size = new System.Drawing.Size(500, 420);
+            this.dgvGioHang.Size = new System.Drawing.Size(500, 390);
             this.dgvGioHang.TabIndex = 27;
             this.dgvGioHang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGioHang_CellClick);
             this.dgvGioHang.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGioHang_CellEndEdit);
@@ -1116,7 +1126,7 @@
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTongTien.ForeColor = System.Drawing.Color.Crimson;
-            this.lblTongTien.Location = new System.Drawing.Point(1111, 534);
+            this.lblTongTien.Location = new System.Drawing.Point(1100, 480);
             this.lblTongTien.Name = "lblTongTien";
             this.lblTongTien.Size = new System.Drawing.Size(245, 38);
             this.lblTongTien.TabIndex = 28;
@@ -1130,7 +1140,7 @@
             this.btnDatHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDatHang.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDatHang.ForeColor = System.Drawing.Color.White;
-            this.btnDatHang.Location = new System.Drawing.Point(1380, 524);
+            this.btnDatHang.Location = new System.Drawing.Point(1250, 535);
             this.btnDatHang.Name = "btnDatHang";
             this.btnDatHang.Size = new System.Drawing.Size(220, 60);
             this.btnDatHang.TabIndex = 29;
@@ -1229,21 +1239,21 @@
             this.pnlCCHS.ResumeLayout(false);
             this.pnlCCHS.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picCCHS)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.pnlML.ResumeLayout(false);
+            this.pnlML.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picML)).EndInit();
+            this.pnlSBH.ResumeLayout(false);
+            this.pnlSBH.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSBH)).EndInit();
+            this.pnlTC.ResumeLayout(false);
+            this.pnlTC.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTC)).EndInit();
+            this.pnlTRMS.ResumeLayout(false);
+            this.pnlTRMS.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picTRMS)).EndInit();
+            this.pnlSK.ResumeLayout(false);
+            this.pnlSK.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picSK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvGioHang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1313,30 +1323,30 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colSoLuong;
         private System.Windows.Forms.DataGridViewTextBoxColumn colThanhTien;
         private System.Windows.Forms.DataGridViewButtonColumn colXoa;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel pnlML;
+        private System.Windows.Forms.Button btnML;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picML;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel pnlSBH;
+        private System.Windows.Forms.Button btnSBH;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picSBH;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel pnlTC;
+        private System.Windows.Forms.Button btnTC;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox picTC;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel pnlTRMS;
+        private System.Windows.Forms.Button btnTRMS;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox picTRMS;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel pnlSK;
+        private System.Windows.Forms.Button btnSK;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox picSK;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button btnLogin_Logout;
         private System.Windows.Forms.Label lblXinChao;
