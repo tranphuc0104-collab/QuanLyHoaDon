@@ -96,5 +96,11 @@ namespace QuanLyHoaDon.Views
             OpenChildForm(new frmDatHang());
             lblTitle.Text = "TRANG CHỦ";
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmReportHoaDon());
+            lblTitle.Text = "Báo cáo";
+        }
     }
 }

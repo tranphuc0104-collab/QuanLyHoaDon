@@ -59,7 +59,6 @@ namespace QuanLyHoaDon.Controllers
             SELECT NgayLap,SUM(TongTien) AS DoanhThu
             FROM HoaDon
             GROUP BY NgayLap";
-
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
             DataTable dt = new DataTable();
             da.Fill(dt);
@@ -74,7 +73,6 @@ namespace QuanLyHoaDon.Controllers
             INNER JOIN SanPham
             ON ChiTietHoaDon.MaSP = SanPham.MaSP
             GROUP BY SanPham.TenSP";
-
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
             DataTable dt = new DataTable();
             da.Fill(dt);

@@ -95,5 +95,28 @@ namespace QuanLyHoaDon.Controllers
             da.Fill(dt);
             return dt;
         }
+        public DataTable getReportHoaDon()
+        {
+            string query = @"
+                SELECT HoaDon.MaHD,
+                       HoaDon.NgayLap,
+                       KhachHang.TenKH,
+                       SanPham.TenSP,
+                       ChiTietHoaDon.SoLuong,
+                       ChiTietHoaDon.DonGia,
+                       ChiTietHoaDon.ThanhTien,
+                       HoaDon.TongTien
+                FROM HoaDon
+                INNER JOIN KhachHang
+                ON HoaDon.MaKH = KhachHang.MaKH
+                INNER JOIN ChiTietHoaDon
+                ON HoaDon.MaHD = ChiTietHoaDon.MaHD
+                INNER JOIN SanPham
+                ON ChiTietHoaDon.MaSP = SanPham.MaSP";
+            SqlDataAdapter da = new SqlDataAdapter(query, conn);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
     }
 }
