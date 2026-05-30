@@ -74,7 +74,6 @@ namespace QuanLyHoaDon.Controllers
                 conn.Close();
             }
             conn.Open();
-            // XÓA CHI TIẾT HÓA ĐƠN
             string queryCT = @"
             DELETE FROM ChiTietHoaDon
             WHERE MaHD = @MaHD";
@@ -82,7 +81,6 @@ namespace QuanLyHoaDon.Controllers
             cmdCT.Parameters.AddWithValue("@MaHD", maHD);
             cmdCT.ExecuteNonQuery();
 
-            // XÓA HÓA ĐƠN
             string queryHD = @"
             DELETE FROM HoaDon
             WHERE MaHD = @MaHD";

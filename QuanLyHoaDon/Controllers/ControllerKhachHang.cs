@@ -63,11 +63,17 @@ namespace QuanLyHoaDon.Controllers
 
         public bool deleteKhachHang(string maKH)
         {
-            string query = "DELETE FROM KhachHang WHERE MaKH=@MaKH";
-            SqlCommand cmd = new SqlCommand(query, conn);
-            cmd.Parameters.AddWithValue("@MaKH", maKH);
+            SqlConnection conn = Connection.GetConnection();
             conn.Open();
-            int result = cmd.ExecuteNonQuery();
+            string TK = "DELETE FROM TaiKhoan WHERE MaKH = @MaKH";
+            SqlCommand cmdTK = new SqlCommand(TK, conn);
+            cmdTK.Parameters.AddWithValue("@MaKH", maKH);
+            cmdTK.ExecuteNonQuery();
+
+            string kh = "DELETE FROM KhachHang WHERE MaKH=@MaKH";
+            SqlCommand cmdkh = new SqlCommand(kh, conn);
+            cmdkh.Parameters.AddWithValue("@MaKH", maKH);
+            int result = cmdkh.ExecuteNonQuery();
             conn.Close();
             return result > 0;
         }
